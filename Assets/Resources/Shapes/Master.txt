@@ -1,0 +1,5 @@
+{
+"commonShapeNames":["Point", "Left Flank", "Right Flank", "Arrow"],
+"whiteShapeNames":["Defender", "Valley", "Grenade Launcher", "Ring", "Excavator"],
+"blackShapeNames":["Gun", "Wall Builder", "Castle Builder", "Trap Ring", "Side Excavator"]
+}
