@@ -1,0 +1,20 @@
+In FormationEditor something is removing from HexGrid.pieces and making the pieces not move when terrain is updated
+	This should not be happening, I have no idea why it is happening
+
+Towers give energy discounts if controlled
+
+
+Add CanDrop() check to every step along route.
+
+Formation UX
+	Possibly change SelectCollection so that potentials appear a different color.
+
+CARD SELECTION
+	Oh god.
+	
+	Images? Do I even want them?
+
+Formation Editor
+	Color selecter?
+	At some point we will need default formations to survive a build.
+		Probably, load them from file using the Resources class

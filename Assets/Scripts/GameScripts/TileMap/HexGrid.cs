@@ -5,7 +5,6 @@ using UnityEngine;
 public partial class HexGrid : MonoBehaviour {
 	
 	GameManager game;
-	HexGrid map;
 	public GameObject hexPrefab;
 	public GameObject piecePrefab;
 	public GameObject flagPrefab;
@@ -25,7 +24,6 @@ public partial class HexGrid : MonoBehaviour {
 
 	void Awake() {
 		game = GetComponentInParent<GameManager>();
-		map = GetComponentInParent<HexGrid>();
 		CreateGradient();
 	}
 	
